@@ -1,0 +1,20 @@
+﻿  Building 'KMDF Driver2' with toolset 'WindowsKernelModeDriver10.0' and the 'Universal' target platform.
+  Stamping x64\Debug\KMDFDriver2.inf
+  Stamping [Version] section with DriverVer=09/18/2025,15.48.40.729
+  Device.c
+C:\Users\hulirou\Desktop\驱动开发工具集\我写的驱动\一个没有报错的vhf框架驱动项目\KMDF Driver2\Device.c(124,106): warning C4090: “函数”: 不同的“const”限定符
+  Driver.c
+C:\Users\hulirou\Desktop\驱动开发工具集\我写的驱动\一个没有报错的vhf框架驱动项目\KMDF Driver2\Driver.c(28,1): warning C4102: “End”: 未引用的标签
+  Queue.c
+C:\Users\hulirou\Desktop\驱动开发工具集\我写的驱动\一个没有报错的vhf框架驱动项目\KMDF Driver2\Queue.c(31,29): warning C4210: 使用了非标准扩展: 函数给定文件范围
+C:\Users\hulirou\Desktop\驱动开发工具集\我写的驱动\一个没有报错的vhf框架驱动项目\KMDF Driver2\Queue.c(275,13): warning C4098: “EvtIoDeviceControl”:“void”函数返回值
+C:\Users\hulirou\Desktop\驱动开发工具集\我写的驱动\一个没有报错的vhf框架驱动项目\KMDF Driver2\Queue.c(136,19): warning C4100: 'Queue': 未引用的参数
+  正在生成代码...
+C:\Users\hulirou\Desktop\驱动开发工具集\我写的驱动\一个没有报错的vhf框架驱动项目\KMDF Driver2\Device.c(164,1): warning C4715: “EvtDriverDeviceAdd”: 不是所有的控件路径都返回值
+  KMDF Driver2.vcxproj -> C:\Users\hulirou\Desktop\驱动开发工具集\我写的驱动\一个没有报错的vhf框架驱动项目\KMDF Driver2\x64\Debug\KMDFDriver2.sys
+  Done Adding Additional Store
+  Successfully signed: C:\Users\hulirou\Desktop\\\vhf\KMDF Driver2\x64\Debug\KMDFDriver2.sys
+  
+  Driver is 'Universal'.
+  DrvCat task was skipped as there was no catalog file to process
+  

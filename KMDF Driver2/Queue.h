@@ -1,0 +1,51 @@
+#ifndef QUEUE_H
+#define QUEUE_H
+
+#include <ntddk.h>
+#include <wdf.h>
+
+//无论是Queue.c还是Device.c都要用到这个定义
+VOID EvtIoDeviceControl(
+    _In_ WDFQUEUE Queue,
+    _In_ WDFREQUEST Request,
+    _In_ size_t OutputBufferLength,
+    _In_ size_t InputBufferLength,
+    _In_ ULONG IoControlCode
+);
+
+
+// 声明全局变量：用extern，不分配内存，不初始化
+extern WDFDEVICE g_Device;
+
+
+//定义键盘输入
+typedef struct _KEYBOARD_INPUT_REPORT
+{
+    BYTE Modifiers;    // 修饰键位图,Shift、Ctrl、Alt 等修饰键的状态
+    BYTE Reserved;     // 保留字节
+    BYTE KeyCodes[6];  // 存储同时按下的按键扫描码(支持最多 6 个键的同时按下)
+
+} KEYBOARD_INPUT_REPORT, * PKEYBOARD_INPUT_REPORT;
+
+
+//定义鼠标输入
+//typedef struct _MOUSE_INPUT_REPORT
+//{
+//    BYTE Buttons;      // 是鼠标的那个按键
+//    BYTE X;            // 水平方向的移动量
+//    BYTE Y;            // 垂直方向的移动量
+//    BYTE Wheel;        // 鼠标滚轮的滚动量
+//
+//} MOUSE_INPUT_REPORT, * PMOUSE_INPUT_REPORT;
+
+
+// 定义设备上下文结构
+//typedef struct _DEVICE_CONTEXT
+//{
+//    VHFHANDLE VhfKeyboardHandle;
+//    VHFHANDLE VhfMouseHandle;
+//    WDFQUEUE  DefaultQueue;
+//} DEVICE_CONTEXT, * PDEVICE_CONTEXT;
+
+
+#endif
