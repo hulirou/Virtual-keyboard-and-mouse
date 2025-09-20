@@ -15,14 +15,20 @@ shutdown /r /o /f /t 0
 各种文件路径要正确，在生成的解决方案中要有x64的devcon.exe（这个东西WDK包自带的文件夹有）
 再次按先前的高级启动后这个设备就可以使用了，不然会出现驱动报错说这个驱动没有签名或者下载了不该下载的东西
 
+
 3环程序使用说明：
 这时就可以使用写的3环程序交互了，我写的语法是获取所有逗号隔开的参数然后放到一个2维的数组中，输出前面的4个参数（依次是方法函数，按键扫描码，修饰符扫描码，时长）
 三环程序应该叫wdf框架即插即用驱动的3环形程序.exe,cmd运行就能用，暂时只写了键盘的。
 
 
-
 逻辑分析：
 创建一个wdf设备后创建vhf键盘设备和vhf鼠标设备，wdf设备句柄可以获取设备上下文，设备上下文中存储键盘和鼠标的句柄，发送键鼠数据依靠这两个设备句柄。安装时会出现你的wdf设备，重启电脑后显示另外两个设备，他们控制键盘和鼠标。
+
+
+参考：
+inf文件需要写什么类型等：https://github.com/SenuthLikesCrak/Virtual-HID-Framework-gamepad-example
+微软VHF官方用法：https://learn.microsoft.com/zh-cn/windows-hardware/drivers/hid/virtual-hid-framework--vhf-
+WDF驱动框架基础：https://www.bilibili.com/video/BV1cu411R7HY/?spm_id_from=333.337.search-card.all.click&vd_source=4f2ab0a07d42ba5c0b331344c619e3b0
 
 
 还在写ing...
