@@ -27,7 +27,9 @@ shutdown /r /o /f /t 0
 
 参考：
 inf文件需要写什么类型等：https://github.com/SenuthLikesCrak/Virtual-HID-Framework-gamepad-example
+
 微软VHF官方用法：https://learn.microsoft.com/zh-cn/windows-hardware/drivers/hid/virtual-hid-framework--vhf-
+
 WDF驱动框架基础：https://www.bilibili.com/video/BV1cu411R7HY/?spm_id_from=333.337.search-card.all.click&vd_source=4f2ab0a07d42ba5c0b331344c619e3b0
 
 
