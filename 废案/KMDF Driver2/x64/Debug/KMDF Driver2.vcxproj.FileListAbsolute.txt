@@ -1,0 +1,2 @@
+C:\Users\hulirou\Desktop\驱动开发工具集\我写的驱动\一个没有报错的vhf框架驱动项目\KMDF Driver2\x64\Debug\KMDFDriver2.sys
+D:\林风羽的办公作业\驱动\KMDF Driver2\x64\Debug\KMDFDriver2.sys
