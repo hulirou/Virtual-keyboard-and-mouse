@@ -9,7 +9,7 @@ Class       = HIDClass                  ; HID设备类（不可改）
 ClassGuid   = {745a17a0-74d3-11d0-b6fe-00a0c90f57da} ; HID类标准GUID（不可改）
 Provider    = %ManufacturerName%
 CatalogFile = KMDFDriver2.cat           ; 与驱动文件名一致
-DriverVer = 09/18/2025,15.48.40.729
+DriverVer = 09/19/2025,20.24.44.605
 PnpLockdown = 1
 
 [DestinationDirs]
