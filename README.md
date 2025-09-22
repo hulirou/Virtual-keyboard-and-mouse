@@ -13,12 +13,12 @@ Queeu.c是用于处理IO请求，即三环程序和应用程序的通信。我�
 shutdown /r /o /f /t 0
 在cmd命令中输入devcon.exe install "KMDFDriver2.inf" root\KMDFDriver2
 各种文件路径要正确，在生成的解决方案中要有x64的devcon.exe（这个东西WDK包自带的文件夹有）
-再次按先前的高级启动后这个设备就可以使用了，不然会出现驱动报错说这个驱动没有签名或者下载了不该下载的东西
+
+我添加了清理vhf设备的函数，现在应该不会有什么明显的错误需要重启了
 
 
 3环程序使用说明：
-这时就可以使用写的3环程序交互了，我写的语法是获取所有逗号隔开的参数然后放到一个2维的数组中，输出前面的4个参数（依次是方法函数，按键扫描码，修饰符扫描码，时长）
-三环程序应该叫wdf框架即插即用驱动的3环形程序.exe,cmd运行就能用，暂时只写了键盘的。
+双击使用，根据提示输入数字。dll动态链接库还在写...
 
 
 逻辑分析：
@@ -33,5 +33,9 @@ inf文件需要写什么类型等：https://github.com/SenuthLikesCrak/Virtual-H
 WDF驱动框架基础：https://www.bilibili.com/video/BV1cu411R7HY/?spm_id_from=333.337.search-card.all.click&vd_source=4f2ab0a07d42ba5c0b331344c619e3b0
 
 
+
+
+想说的：
+基本上写完了，现在学习下c语言如何写一个动态链接库dll，这样的话我的python也能运行了，我确实不习惯使用c编写这些代码。
 还在写ing...
 
