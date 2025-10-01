@@ -1,0 +1,3 @@
+﻿  test.cpp
+D:\林风羽的办公作业\驱动\wdf框架即插即用驱动的3环形程序\test.cpp(147,1): warning C4715: “keyboardPressAndRelease”: 不是所有的控件路径都返回值
+  wdf框架即插即用驱动的3环形程序.vcxproj -> D:\林风羽的办公作业\驱动\KMDF Driver2\x64\Debug\wdf框架即插即用驱动的3环形程序.exe

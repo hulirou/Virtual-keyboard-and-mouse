@@ -1,0 +1,23 @@
+﻿  Building 'KMDF Driver2' with toolset 'WindowsKernelModeDriver10.0' and the 'Universal' target platform.
+  Stamping x64\Debug\KMDFDriver2.inf
+  Stamping [Version] section with DriverVer=09/22/2025,16.16.15.118
+  Device.c
+D:\林风羽的办公作业\驱动\KMDF Driver2\Device.c(182,104): warning C4090: “函数”: 不同的“const”限定符
+D:\林风羽的办公作业\驱动\KMDF Driver2\Device.c(206,101): warning C4090: “函数”: 不同的“const”限定符
+  Driver.c
+D:\林风羽的办公作业\驱动\KMDF Driver2\Driver.c(28,1): warning C4102: “End”: 未引用的标签
+  Queue.c
+D:\林风羽的办公作业\驱动\KMDF Driver2\Queue.c(47,17): warning C4100: 'OutputBufferLength': 未引用的参数
+D:\林风羽的办公作业\驱动\KMDF Driver2\Queue.c(45,19): warning C4100: 'Queue': 未引用的参数
+D:\林风羽的办公作业\驱动\KMDF Driver2\Queue.c(54,11): warning C4189: “OutputBuffer”: 局部变量已初始化但不引用
+D:\林风羽的办公作业\驱动\KMDF Driver2\Queue.c(55,12): warning C4189: “OutputBufferLengthRet”: 局部变量已初始化但不引用
+D:\林风羽的办公作业\驱动\KMDF Driver2\Queue.c(84,29): warning C4189: “mouseData”: 局部变量已初始化但不引用
+  正在生成代码...
+D:\林风羽的办公作业\驱动\KMDF Driver2\Device.c(238,1): warning C4715: “EvtDriverDeviceAdd”: 不是所有的控件路径都返回值
+  KMDF Driver2.vcxproj -> D:\林风羽的办公作业\驱动\KMDF Driver2\x64\Debug\KMDFDriver2.sys
+  Done Adding Additional Store
+  Successfully signed: D:\\\KMDF Driver2\x64\Debug\KMDFDriver2.sys
+  
+  Driver is 'Universal'.
+  DrvCat task was skipped as there was no catalog file to process
+  
