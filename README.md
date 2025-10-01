@@ -1,4 +1,4 @@
-0基础自学两个月的成果，存萌新，勿喷。
+零基础，勿喷
 
 文件介绍：
 driver.c是主要文件，使用EvtDriverDeviceAdd后会被动执行到Device.c的EvtDriverDeviceAdd函数
