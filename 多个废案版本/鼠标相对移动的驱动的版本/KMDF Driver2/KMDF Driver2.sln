@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36221.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KMDF Driver2", "KMDF Driver2.vcxproj", "{2CCB23FF-888B-4C8B-7AD0-767400258865}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "wdf框架即插即用驱动的3环形程序", "..\wdf框架即插即用驱动的3环形程序\wdf框架即插即用驱动的3环形程序.vcxproj", "{5F59CCD8-D42D-426B-AA7D-0CC5243AD647}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM64 = Debug|ARM64
+		Debug|x64 = Debug|x64
+		Release|ARM64 = Release|ARM64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2CCB23FF-888B-4C8B-7AD0-767400258865}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{2CCB23FF-888B-4C8B-7AD0-767400258865}.Debug|ARM64.Build.0 = Debug|ARM64
+		{2CCB23FF-888B-4C8B-7AD0-767400258865}.Debug|ARM64.Deploy.0 = Debug|ARM64
+		{2CCB23FF-888B-4C8B-7AD0-767400258865}.Debug|x64.ActiveCfg = Debug|x64
+		{2CCB23FF-888B-4C8B-7AD0-767400258865}.Debug|x64.Build.0 = Debug|x64
+		{2CCB23FF-888B-4C8B-7AD0-767400258865}.Debug|x64.Deploy.0 = Debug|x64
+		{2CCB23FF-888B-4C8B-7AD0-767400258865}.Release|ARM64.ActiveCfg = Release|ARM64
+		{2CCB23FF-888B-4C8B-7AD0-767400258865}.Release|ARM64.Build.0 = Release|ARM64
+		{2CCB23FF-888B-4C8B-7AD0-767400258865}.Release|ARM64.Deploy.0 = Release|ARM64
+		{2CCB23FF-888B-4C8B-7AD0-767400258865}.Release|x64.ActiveCfg = Release|x64
+		{2CCB23FF-888B-4C8B-7AD0-767400258865}.Release|x64.Build.0 = Release|x64
+		{2CCB23FF-888B-4C8B-7AD0-767400258865}.Release|x64.Deploy.0 = Release|x64
+		{5F59CCD8-D42D-426B-AA7D-0CC5243AD647}.Debug|ARM64.ActiveCfg = Debug|x64
+		{5F59CCD8-D42D-426B-AA7D-0CC5243AD647}.Debug|ARM64.Build.0 = Debug|x64
+		{5F59CCD8-D42D-426B-AA7D-0CC5243AD647}.Debug|x64.ActiveCfg = Debug|x64
+		{5F59CCD8-D42D-426B-AA7D-0CC5243AD647}.Debug|x64.Build.0 = Debug|x64
+		{5F59CCD8-D42D-426B-AA7D-0CC5243AD647}.Release|ARM64.ActiveCfg = Release|x64
+		{5F59CCD8-D42D-426B-AA7D-0CC5243AD647}.Release|ARM64.Build.0 = Release|x64
+		{5F59CCD8-D42D-426B-AA7D-0CC5243AD647}.Release|x64.ActiveCfg = Release|x64
+		{5F59CCD8-D42D-426B-AA7D-0CC5243AD647}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8C7EBE7B-7DB5-4D42-85FF-F9FCE360E30B}
+	EndGlobalSection
+EndGlobal
