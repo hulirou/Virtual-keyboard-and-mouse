@@ -1,0 +1,43 @@
+﻿  Building 'KMDF Driver2' with toolset 'WindowsKernelModeDriver10.0' and the 'Universal' target platform.
+  Stamping x64\Debug\KMDFDriver2.inf
+  Stamping [Version] section with DriverVer=10/03/2025,21.12.50.844
+  Device.c
+D:\林风羽的办公作业\驱动\KMDF Driver2\Device.c(233,104): warning C4090: “函数”: 不同的“const”限定符
+D:\林风羽的办公作业\驱动\KMDF Driver2\Device.c(257,114): warning C4090: “函数”: 不同的“const”限定符
+  Driver.c
+D:\林风羽的办公作业\驱动\KMDF Driver2\Driver.c(28,1): warning C4102: “End”: 未引用的标签
+  Queue.c
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\vcruntime.h(61,26): warning C4083: 应输入“)”；找到标识符“_VCRUNTIME_DISABLED_WARNINGS”
+  正在生成代码...
+  (编译源文件“Queue.c”)
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\vcruntime.h(111,9): warning C4005: “_CRT_STRINGIZE”: 宏重定义
+  (编译源文件“Queue.c”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\km\crt\crtdefs.h(85,9):
+      参见“_CRT_STRINGIZE”的前一个定义
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\vcruntime.h(114,9): warning C4005: “_CRT_WIDE”: 宏重定义
+  (编译源文件“Queue.c”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\km\crt\crtdefs.h(88,9):
+      参见“_CRT_WIDE”的前一个定义
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\vcruntime.h(155,9): warning C4005: “__CRTDECL”: 宏重定义
+  (编译源文件“Queue.c”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\km\crt\crtdefs.h(640,9):
+      参见“__CRTDECL”的前一个定义
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\stdint.h(16,26): warning C4083: 应输入“)”；找到标识符“_VCRUNTIME_DISABLED_WARNINGS”
+  (编译源文件“Queue.c”)
+  
+D:\林风羽的办公作业\驱动\KMDF Driver2\Queue.c(47,17): warning C4100: 'OutputBufferLength': 未引用的参数
+D:\林风羽的办公作业\驱动\KMDF Driver2\Queue.c(45,19): warning C4100: 'Queue': 未引用的参数
+D:\林风羽的办公作业\驱动\KMDF Driver2\Queue.c(54,11): warning C4189: “OutputBuffer”: 局部变量已初始化但不引用
+D:\林风羽的办公作业\驱动\KMDF Driver2\Queue.c(55,12): warning C4189: “OutputBufferLengthRet”: 局部变量已初始化但不引用
+D:\林风羽的办公作业\驱动\KMDF Driver2\Device.c(289,1): warning C4715: “EvtDriverDeviceAdd”: 不是所有的控件路径都返回值
+  KMDF Driver2.vcxproj -> D:\林风羽的办公作业\驱动\KMDF Driver2\x64\Debug\KMDFDriver2.sys
+  Done Adding Additional Store
+  Successfully signed: D:\\\KMDF Driver2\x64\Debug\KMDFDriver2.sys
+  
+  Driver is 'Universal'.
+  DrvCat task was skipped as there was no catalog file to process
+  
