@@ -36,6 +36,7 @@ WDF驱动框架基础：https://www.bilibili.com/video/BV1cu411R7HY/?spm_id_from
 
 
 想说的：
+最初只是我想用于刷游戏副本
 基本上写完了，现在学习下c语言如何写一个动态链接库dll，这样的话我的python也能运行了，我确实不习惯使用c编写这些代码。
 还在写ing...
 
