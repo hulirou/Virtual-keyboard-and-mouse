@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36221.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KMDF Driver2", "KMDF Driver2.vcxproj", "{2CCB23FF-888B-4C8B-7AD0-767400258865}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "testTool", "..\testTool\testTool.vcxproj", "{CD228A1B-828B-4076-9261-4988D72893AA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "huli_gamepad", "..\驱动动态链接库\驱动动态链接库.vcxproj", "{DF60B7D1-0714-4901-8232-78DE00B0232E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM64 = Debug|ARM64
+		Debug|x64 = Debug|x64
+		Release|ARM64 = Release|ARM64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2CCB23FF-888B-4C8B-7AD0-767400258865}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{2CCB23FF-888B-4C8B-7AD0-767400258865}.Debug|ARM64.Build.0 = Debug|ARM64
+		{2CCB23FF-888B-4C8B-7AD0-767400258865}.Debug|ARM64.Deploy.0 = Debug|ARM64
+		{2CCB23FF-888B-4C8B-7AD0-767400258865}.Debug|x64.ActiveCfg = Debug|x64
+		{2CCB23FF-888B-4C8B-7AD0-767400258865}.Debug|x64.Build.0 = Debug|x64
+		{2CCB23FF-888B-4C8B-7AD0-767400258865}.Debug|x64.Deploy.0 = Debug|x64
+		{2CCB23FF-888B-4C8B-7AD0-767400258865}.Release|ARM64.ActiveCfg = Release|ARM64
+		{2CCB23FF-888B-4C8B-7AD0-767400258865}.Release|ARM64.Build.0 = Release|ARM64
+		{2CCB23FF-888B-4C8B-7AD0-767400258865}.Release|ARM64.Deploy.0 = Release|ARM64
+		{2CCB23FF-888B-4C8B-7AD0-767400258865}.Release|x64.ActiveCfg = Release|x64
+		{2CCB23FF-888B-4C8B-7AD0-767400258865}.Release|x64.Build.0 = Release|x64
+		{2CCB23FF-888B-4C8B-7AD0-767400258865}.Release|x64.Deploy.0 = Release|x64
+		{CD228A1B-828B-4076-9261-4988D72893AA}.Debug|ARM64.ActiveCfg = Debug|x64
+		{CD228A1B-828B-4076-9261-4988D72893AA}.Debug|ARM64.Build.0 = Debug|x64
+		{CD228A1B-828B-4076-9261-4988D72893AA}.Debug|x64.ActiveCfg = Debug|x64
+		{CD228A1B-828B-4076-9261-4988D72893AA}.Debug|x64.Build.0 = Debug|x64
+		{CD228A1B-828B-4076-9261-4988D72893AA}.Release|ARM64.ActiveCfg = Release|x64
+		{CD228A1B-828B-4076-9261-4988D72893AA}.Release|ARM64.Build.0 = Release|x64
+		{CD228A1B-828B-4076-9261-4988D72893AA}.Release|x64.ActiveCfg = Release|x64
+		{CD228A1B-828B-4076-9261-4988D72893AA}.Release|x64.Build.0 = Release|x64
+		{DF60B7D1-0714-4901-8232-78DE00B0232E}.Debug|ARM64.ActiveCfg = Debug|x64
+		{DF60B7D1-0714-4901-8232-78DE00B0232E}.Debug|ARM64.Build.0 = Debug|x64
+		{DF60B7D1-0714-4901-8232-78DE00B0232E}.Debug|x64.ActiveCfg = Debug|x64
+		{DF60B7D1-0714-4901-8232-78DE00B0232E}.Debug|x64.Build.0 = Debug|x64
+		{DF60B7D1-0714-4901-8232-78DE00B0232E}.Release|ARM64.ActiveCfg = Release|x64
+		{DF60B7D1-0714-4901-8232-78DE00B0232E}.Release|ARM64.Build.0 = Release|x64
+		{DF60B7D1-0714-4901-8232-78DE00B0232E}.Release|x64.ActiveCfg = Release|x64
+		{DF60B7D1-0714-4901-8232-78DE00B0232E}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8C7EBE7B-7DB5-4D42-85FF-F9FCE360E30B}
+	EndGlobalSection
+EndGlobal

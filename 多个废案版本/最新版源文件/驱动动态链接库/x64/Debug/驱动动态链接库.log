@@ -1,0 +1,23 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(538,5): warning MSB8028: 中间目录(x64\Debug\)包含从另一个项目(huli_geampad.vcxproj, 驱动动态链接库.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  mydll.cpp
+D:\林风羽的办公作业\驱动\驱动动态链接库\mydll.cpp(723,17): warning C4477: “wprintf”: 格式字符串“%s”需要类型“wchar_t *”的参数，但可变参数 1 拥有了类型“const char *”
+      D:\林风羽的办公作业\驱动\驱动动态链接库\mydll.cpp(723,17):
+      请考虑在格式字符串中使用“%hs”
+      D:\林风羽的办公作业\驱动\驱动动态链接库\mydll.cpp(723,17):
+      请考虑在格式字符串中使用“%Ts”
+      D:\林风羽的办公作业\驱动\驱动动态链接库\mydll.cpp(723,17):
+      Visual C++ 使用非标准语义时会出现此警告
+  
+D:\林风羽的办公作业\驱动\驱动动态链接库\mydll.cpp(960,16): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\林风羽的办公作业\驱动\驱动动态链接库\mydll.cpp(1147,25): warning C4477: “wprintf”: 格式字符串“%s”需要类型“wchar_t *”的参数，但可变参数 1 拥有了类型“const char *”
+      D:\林风羽的办公作业\驱动\驱动动态链接库\mydll.cpp(1147,25):
+      请考虑在格式字符串中使用“%hs”
+      D:\林风羽的办公作业\驱动\驱动动态链接库\mydll.cpp(1147,25):
+      请考虑在格式字符串中使用“%Ts”
+      D:\林风羽的办公作业\驱动\驱动动态链接库\mydll.cpp(1147,25):
+      Visual C++ 使用非标准语义时会出现此警告
+  
+D:\林风羽的办公作业\驱动\驱动动态链接库\mydll.cpp(935,1): warning C4715: “keyboardRelease”: 不是所有的控件路径都返回值
+D:\林风羽的办公作业\驱动\驱动动态链接库\mydll.cpp(1088,1): warning C4715: “mousePress”: 不是所有的控件路径都返回值
+    正在创建库 D:\林风羽的办公作业\驱动\KMDF Driver2\x64\Debug\huli_gamepad.lib 和对象 D:\林风羽的办公作业\驱动\KMDF Driver2\x64\Debug\huli_gamepad.exp
+  驱动动态链接库.vcxproj -> D:\林风羽的办公作业\驱动\KMDF Driver2\x64\Debug\huli_gamepad.dll

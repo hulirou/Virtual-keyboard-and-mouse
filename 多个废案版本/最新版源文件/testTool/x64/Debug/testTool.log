@@ -1,0 +1,21 @@
+﻿  test.cpp
+D:\林风羽的办公作业\驱动\testTool\test.cpp(721,17): warning C4477: “wprintf”: 格式字符串“%s”需要类型“wchar_t *”的参数，但可变参数 1 拥有了类型“const char *”
+      D:\林风羽的办公作业\驱动\testTool\test.cpp(721,17):
+      请考虑在格式字符串中使用“%hs”
+      D:\林风羽的办公作业\驱动\testTool\test.cpp(721,17):
+      请考虑在格式字符串中使用“%Ts”
+      D:\林风羽的办公作业\驱动\testTool\test.cpp(721,17):
+      Visual C++ 使用非标准语义时会出现此警告
+  
+D:\林风羽的办公作业\驱动\testTool\test.cpp(957,16): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\林风羽的办公作业\驱动\testTool\test.cpp(1144,25): warning C4477: “wprintf”: 格式字符串“%s”需要类型“wchar_t *”的参数，但可变参数 1 拥有了类型“const char *”
+      D:\林风羽的办公作业\驱动\testTool\test.cpp(1144,25):
+      请考虑在格式字符串中使用“%hs”
+      D:\林风羽的办公作业\驱动\testTool\test.cpp(1144,25):
+      请考虑在格式字符串中使用“%Ts”
+      D:\林风羽的办公作业\驱动\testTool\test.cpp(1144,25):
+      Visual C++ 使用非标准语义时会出现此警告
+  
+D:\林风羽的办公作业\驱动\testTool\test.cpp(931,1): warning C4715: “keyboardRelease”: 不是所有的控件路径都返回值
+D:\林风羽的办公作业\驱动\testTool\test.cpp(1085,1): warning C4715: “mousePress”: 不是所有的控件路径都返回值
+  testTool.vcxproj -> D:\林风羽的办公作业\驱动\KMDF Driver2\x64\Debug\testTool.exe
