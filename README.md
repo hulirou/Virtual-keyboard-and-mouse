@@ -1,5 +1,22 @@
 零基础，勿喷
 
+
+
+键盘数据的完整路径（从硬件到用户层）：
+
+        硬件（键盘） → 内核层驱动 → 内核输入子系统 → 用户层API → 应用程序
+                          ⬆                          ⬆
+                   我的虚拟键鼠位置            常见的键鼠模拟位置
+    
+
+
+
+
+
+
+
+
+
 文件介绍：
 driver.c是主要文件，使用EvtDriverDeviceAdd后会被动执行到Device.c的EvtDriverDeviceAdd函数
 Device.c是创建各种设备的代码，如：wdf设备、vhf设备
