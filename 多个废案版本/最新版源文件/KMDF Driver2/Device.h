@@ -20,7 +20,7 @@ VOID EvtIoDeviceControl(
 );
 
 
-//定义一个设备上下文结构体
+//定义一个设备上下文结构体（相当于设备的笔记本）
 typedef struct _DEVICE_CONTEXT
 {
     //VHFHANDLE vhfKeyboardHandle;
@@ -34,3 +34,4 @@ WDF_DECLARE_CONTEXT_TYPE_WITH_NAME(DEVICE_CONTEXT, DeviceGetContext)
 
 
 #endif
+
