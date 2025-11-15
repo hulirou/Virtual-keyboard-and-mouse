@@ -10,7 +10,7 @@ NTSTATUS EvtDriverDeviceAdd(
 );
 
 
-//нчбшйгQueue.c╩╧йгDevice.c╤╪р╙сц╣╫уБп╘╤╗рЕ
+//Ф≈═Х╝╨Ф≤╞Queue.cХ©≤Ф≤╞Device.cИ┐╫Х╕│Г■╗Е┬╟Х©≥Д╨⌡Е╝ Д╧┴
 VOID EvtIoDeviceControl(
     _In_ WDFQUEUE Queue,
     _In_ WDFREQUEST Request,
@@ -20,7 +20,7 @@ VOID EvtIoDeviceControl(
 );
 
 
-//иХ╠╦иообнд╫А╧╧лЕ
+//Е╝ Д╧┴Д╦─Д╦╙Х╝╬Е╓┤Д╦┼Д╦▀Ф√┤Г╩⌠Ф·└Д╫⌠
 typedef struct _DEVICE_CONTEXT
 {
     //VHFHANDLE vhfKeyboardHandle;
@@ -29,7 +29,8 @@ typedef struct _DEVICE_CONTEXT
 
 } DEVICE_CONTEXT, * PDEVICE_CONTEXT;
 
-//╩Ях║иХ╠╦иообнд╣д╥╫╥╗
+//Е╝ Д╧┴Д╦─Д╦╙Х▌╥Е▐√Х╝╬Е╓┤Д╦┼Д╦▀Ф√┤Г └Ф√╧ФЁ∙
 WDF_DECLARE_CONTEXT_TYPE_WITH_NAME(DEVICE_CONTEXT, DeviceGetContext)
+
 
 #endif
