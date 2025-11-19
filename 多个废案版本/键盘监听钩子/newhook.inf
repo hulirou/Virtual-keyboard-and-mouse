@@ -1,0 +1,62 @@
+;
+; newhook.inf
+;
+
+[Version]
+Signature   = "$WINDOWS NT$"
+Class       = System ; TODO: specify appropriate Class
+ClassGuid   = {4d36e97d-e325-11ce-bfc1-08002be10318} ; TODO: specify appropriate ClassGuid
+Provider    = %ManufacturerName%
+CatalogFile = newhook.cat
+DriverVer   = ; TODO: set DriverVer in stampinf property pages
+PnpLockdown = 1
+
+[DestinationDirs]
+DefaultDestDir = 13
+
+[SourceDisksNames]
+1 = %DiskName%,,,""
+
+[SourceDisksFiles]
+newhook.sys = 1,,
+
+;*****************************************
+; Install Section
+;*****************************************
+
+[Manufacturer]
+%ManufacturerName% = Standard,NT$ARCH$.10.0...16299 ; %13% support introduced in build 16299
+
+[Standard.NT$ARCH$.10.0...16299]
+%newhook.DeviceDesc% = newhook_Device, Root\newhook ; TODO: edit hw-id
+
+[newhook_Device.NT]
+CopyFiles = File_Copy
+
+[File_Copy]
+newhook.sys
+
+;-------------- Service installation
+[newhook_Device.NT.Services]
+AddService = newhook,%SPSVCINST_ASSOCSERVICE%, newhook_Service_Inst
+
+; -------------- newhook driver install sections
+[newhook_Service_Inst]
+DisplayName    = %newhook.SVCDESC%
+ServiceType    = 1               ; SERVICE_KERNEL_DRIVER
+StartType      = 3               ; SERVICE_DEMAND_START
+ErrorControl   = 1               ; SERVICE_ERROR_NORMAL
+ServiceBinary  = %13%\newhook.sys
+
+[newhook_Device.NT.Wdf]
+KmdfService = newhook, newhook_wdfsect
+
+[newhook_wdfsect]
+KmdfLibraryVersion = $KMDFVERSION$
+
+[Strings]
+SPSVCINST_ASSOCSERVICE = 0x00000002
+ManufacturerName = "<Your manufacturer name>" ;TODO: Replace with your manufacturer name
+DiskName = "newhook Installation Disk"
+newhook.DeviceDesc = "newhook Device"
+newhook.SVCDESC = "newhook Service"
